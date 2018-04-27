@@ -125,9 +125,7 @@ int main()
 		for (int i = 0; i < num; i++)
 			cout << "(" << points[i].x << "," << points[i].y << ")" << endl;
 		diatance = ClosestPair(points, num, a, b);
-		cout << endl << endl << "按横坐标排序后的点对:" << endl;
-		for (int i = 0; i < num; i++)
-			cout << "(" << points[i].x << "," << points[i].y << ")" << endl;
+		
 
 		cout << endl << "最近点对为：" << "(" << a.x << "," << a.y << ")和" << "(" << b.x << "," << b.y << ")" << endl << "最近点对距离为：" << diatance << endl;
 	}
